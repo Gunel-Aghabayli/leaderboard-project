@@ -1,0 +1,48 @@
+.leaderboard {
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  .bracket {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .round {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .match {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    button {
+      padding: 8px 12px;
+      background: #003366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+
+      &:hover {
+        background: #0055aa;
+      }
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .results {
+    margin-top: 40px;
+    background: #19ed43;
+    padding: 20px;
+    border-radius: 8px;
+  }
+}
